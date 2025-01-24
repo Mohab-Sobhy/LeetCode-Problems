@@ -9,6 +9,13 @@ class Program
 
         return arr[index] + sumOfArr(arr, index + 1);
     }
+
+    private static int Factorial(int num)
+    {
+        if (num == 1)
+            return 1;
+        return num * Factorial(num - 1);
+    }
     
     static void Main(string[] args)
     {
