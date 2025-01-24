@@ -16,6 +16,14 @@ class Program
             return 1;
         return num * Factorial(num - 1);
     }
+
+    private static int maxIntArr(int[] arr, int index)
+    {
+        if (arr.Length-1 == index)
+            return arr[index];
+
+        return Math.Max( arr[index], maxIntArr(arr, index + 1) );
+    }
     
     static void Main(string[] args)
     {
