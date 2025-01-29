@@ -1,5 +1,14 @@
-Counting Sort
-Merge Sort
-Binary Search
-First & Last occurrence
-Lower & Upper bound
+Counting Sort{
+  H-index
+}
+
+Merge Sort{
+  Sort List
+}
+
+Binary Search{
+  First & Last occurrence
+  Lower & Upper bound
+  Search on sorted 2d matrix
+  Find Peak Element
+}
