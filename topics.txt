@@ -1,0 +1,5 @@
+Counting Sort
+Merge Sort
+Binary Search
+First & Last occurrence
+Lower & Upper bound
