@@ -25,6 +25,32 @@ public class Graph
     public void addNode()
     {
         nodes.Add(new List<int>());
+        numOfNodes++;
+    }
+
+    public List<int> traverse(int startNode)
+    {
+        List<int> numbers = new List<int>();
+        Queue<int> queue = new Queue<int>();
+        Boolean[] visitedArr = new Boolean [numOfNodes];
+        queue.Enqueue(startNode);
+        visitedArr[startNode] = true;
+
+        while (queue.Count != 0)
+        {
+            int currentNode = queue.Dequeue();
+            numbers.Add(currentNode);
+            foreach (int element in nodes[currentNode])
+            {
+                if (visitedArr[element] == false)
+                {
+                    queue.Enqueue(element);
+                    visitedArr[element] = true;
+                }
+            }
+        }
+
+        return numbers;
     }
 
     public void print()
