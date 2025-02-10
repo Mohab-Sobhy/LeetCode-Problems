@@ -12,3 +12,7 @@ Binary Search{
   Search on sorted 2d matrix
   Find Peak Element
 }
+
+Disjoint Sets{
+  Number Of Provinces
+}
