@@ -13,6 +13,10 @@ Binary Search{
   Find Peak Element
 }
 
+Linked List{
+  Floyd Cycle Detection
+}
+
 Disjoint Sets{
   Number Of Provinces
 }
